@@ -1,0 +1,623 @@
+fileFormatVersion: 2
+guid: 2d233780158d34bdeb66e32087b68e0c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: Body 1
+    100004: Cluster
+    100006: Cluster 1
+    100008: //RootNode
+    100010: Frame
+    100012: Frame 1
+    100014: Front Bumper
+    100016: Front Bumper 1
+    100018: Front Bumper 2
+    100020: Front Bumper 3
+    100022: Front Bumper 4
+    100024: Front Bumper Stock
+    100026: Front Left Fender
+    100028: Front Left Fender 1
+    100030: Front Left Fender 2
+    100032: Front Left Fender Stock
+    100034: Front Right Fender
+    100036: Front Right Fender 1
+    100038: Front Right Fender 2
+    100040: Front Right Fender Stock
+    100042: gas
+    100044: Glass
+    100046: Glass 1
+    100048: Hood
+    100050: Hood 1
+    100052: Hood 2
+    100054: Hood 3
+    100056: Hood 4
+    100058: Hood Stock
+    100060: Interior
+    100062: Interior 1
+    100064: Left Front Door
+    100066: Left Front Door 1
+    100068: Left Headlight
+    100070: Left Headlight 1
+    100072: Left Headlight 2
+    100074: Left Sideskirt
+    100076: Left Sideskirt 1
+    100078: Left Sideskirt 2
+    100080: Left Sideskirt 3
+    100082: Left Sideskirt 4
+    100084: Left Sideskirt 5
+    100086: Left Sideskirt 6
+    100088: Left Sideskirt 7
+    100090: Left Sideskirt 8
+    100092: Left Sideskirt 9
+    100094: Left Sideskirt Stock
+    100096: Left Taillight
+    100098: Left Taillight 1
+    100100: LOD
+    100102: LOD Body
+    100104: LOD Front Bumper
+    100106: LOD Front Left Fender
+    100108: LOD Front Right Fender
+    100110: LOD Hood
+    100112: LOD Left Front Door
+    100114: LOD Left Headlight
+    100116: LOD Left Rear Door
+    100118: LOD Left Sideskirt
+    100120: LOD Left Taillight
+    100122: LOD Rear Bumper
+    100124: LOD Rear Left Fender
+    100126: LOD Rear Right Fender
+    100128: LOD Right Front Door
+    100130: LOD Right Headlight
+    100132: LOD Right Rear Door
+    100134: LOD Right Sideskirt
+    100136: LOD Right Taillight
+    100138: LOD Trunk
+    100140: Rear Bumper
+    100142: Rear Bumper 1
+    100144: Rear Bumper 2
+    100146: Rear Bumper 3
+    100148: Rear Bumper 4
+    100150: Rear Bumper 5
+    100152: Rear Bumper Stock
+    100154: Rear Door Left
+    100156: Rear Door Left 1
+    100158: Rear Door Right
+    100160: Rear Door Right 1
+    100162: Rear Left Fender
+    100164: Rear Left Fender 1
+    100166: Rear Left Fender Stock
+    100168: Rear Right Fender
+    100170: Rear Right Fender 1
+    100172: Rear Right Fender Stock
+    100174: Right Front Door
+    100176: Right Front Door 1
+    100178: Right Headlight
+    100180: Right Headlight 1
+    100182: Right Headlight 2
+    100184: Right Sideskirt
+    100186: Right Sideskirt 1
+    100188: Right Sideskirt 2
+    100190: Right Sideskirt 3
+    100192: Right Sideskirt 4
+    100194: Right Sideskirt 5
+    100196: Right Sideskirt 6
+    100198: Right Sideskirt 7
+    100200: Right Sideskirt 8
+    100202: Right Sideskirt 9
+    100204: Right Sideskirt Stock
+    100206: Right Taillight
+    100208: 'Right Taillight '
+    100210: Rollcage
+    100212: Rollcage 1
+    100214: Roof Spoiler
+    100216: Spacer
+    100218: Spacer 1
+    100220: Spacer 1 1
+    100222: speed
+    100224: Spoiler
+    100226: Spoiler 1
+    100228: Spoiler 2
+    100230: Spoiler 3
+    100232: taho
+    100234: temp
+    100236: Trunk
+    100238: Trunk 1
+    400000: Body
+    400002: Body 1
+    400004: Cluster
+    400006: Cluster 1
+    400008: //RootNode
+    400010: Frame
+    400012: Frame 1
+    400014: Front Bumper
+    400016: Front Bumper 1
+    400018: Front Bumper 2
+    400020: Front Bumper 3
+    400022: Front Bumper 4
+    400024: Front Bumper Stock
+    400026: Front Left Fender
+    400028: Front Left Fender 1
+    400030: Front Left Fender 2
+    400032: Front Left Fender Stock
+    400034: Front Right Fender
+    400036: Front Right Fender 1
+    400038: Front Right Fender 2
+    400040: Front Right Fender Stock
+    400042: gas
+    400044: Glass
+    400046: Glass 1
+    400048: Hood
+    400050: Hood 1
+    400052: Hood 2
+    400054: Hood 3
+    400056: Hood 4
+    400058: Hood Stock
+    400060: Interior
+    400062: Interior 1
+    400064: Left Front Door
+    400066: Left Front Door 1
+    400068: Left Headlight
+    400070: Left Headlight 1
+    400072: Left Headlight 2
+    400074: Left Sideskirt
+    400076: Left Sideskirt 1
+    400078: Left Sideskirt 2
+    400080: Left Sideskirt 3
+    400082: Left Sideskirt 4
+    400084: Left Sideskirt 5
+    400086: Left Sideskirt 6
+    400088: Left Sideskirt 7
+    400090: Left Sideskirt 8
+    400092: Left Sideskirt 9
+    400094: Left Sideskirt Stock
+    400096: Left Taillight
+    400098: Left Taillight 1
+    400100: LOD
+    400102: LOD Body
+    400104: LOD Front Bumper
+    400106: LOD Front Left Fender
+    400108: LOD Front Right Fender
+    400110: LOD Hood
+    400112: LOD Left Front Door
+    400114: LOD Left Headlight
+    400116: LOD Left Rear Door
+    400118: LOD Left Sideskirt
+    400120: LOD Left Taillight
+    400122: LOD Rear Bumper
+    400124: LOD Rear Left Fender
+    400126: LOD Rear Right Fender
+    400128: LOD Right Front Door
+    400130: LOD Right Headlight
+    400132: LOD Right Rear Door
+    400134: LOD Right Sideskirt
+    400136: LOD Right Taillight
+    400138: LOD Trunk
+    400140: Rear Bumper
+    400142: Rear Bumper 1
+    400144: Rear Bumper 2
+    400146: Rear Bumper 3
+    400148: Rear Bumper 4
+    400150: Rear Bumper 5
+    400152: Rear Bumper Stock
+    400154: Rear Door Left
+    400156: Rear Door Left 1
+    400158: Rear Door Right
+    400160: Rear Door Right 1
+    400162: Rear Left Fender
+    400164: Rear Left Fender 1
+    400166: Rear Left Fender Stock
+    400168: Rear Right Fender
+    400170: Rear Right Fender 1
+    400172: Rear Right Fender Stock
+    400174: Right Front Door
+    400176: Right Front Door 1
+    400178: Right Headlight
+    400180: Right Headlight 1
+    400182: Right Headlight 2
+    400184: Right Sideskirt
+    400186: Right Sideskirt 1
+    400188: Right Sideskirt 2
+    400190: Right Sideskirt 3
+    400192: Right Sideskirt 4
+    400194: Right Sideskirt 5
+    400196: Right Sideskirt 6
+    400198: Right Sideskirt 7
+    400200: Right Sideskirt 8
+    400202: Right Sideskirt 9
+    400204: Right Sideskirt Stock
+    400206: Right Taillight
+    400208: 'Right Taillight '
+    400210: Rollcage
+    400212: Rollcage 1
+    400214: Roof Spoiler
+    400216: Spacer
+    400218: Spacer 1
+    400220: Spacer 1 1
+    400222: speed
+    400224: Spoiler
+    400226: Spoiler 1
+    400228: Spoiler 2
+    400230: Spoiler 3
+    400232: taho
+    400234: temp
+    400236: Trunk
+    400238: Trunk 1
+    2100000: Frame
+    2100002: Under
+    2100004: Rubber
+    2100006: Lights
+    2100008: Chrome Lights
+    2100010: CHROME
+    2100012: plastic
+    2100014: Glass
+    2100016: Glass Blacked
+    2100018: Body
+    2100020: Mirror
+    2100022: Door
+    2100024: spacer
+    2100026: Rollcage
+    2100028: 'Material #2060'
+    2100030: Interior
+    2100032: LOD_Light
+    2300000: Body 1
+    2300002: Cluster 1
+    2300004: Frame 1
+    2300006: Front Bumper 1
+    2300008: Front Bumper 2
+    2300010: Front Bumper 3
+    2300012: Front Bumper 4
+    2300014: Front Bumper Stock
+    2300016: Front Left Fender 1
+    2300018: Front Left Fender 2
+    2300020: Front Left Fender Stock
+    2300022: Front Right Fender 1
+    2300024: Front Right Fender 2
+    2300026: Front Right Fender Stock
+    2300028: gas
+    2300030: Glass 1
+    2300032: Hood 1
+    2300034: Hood 2
+    2300036: Hood 3
+    2300038: Hood 4
+    2300040: Hood Stock
+    2300042: Interior 1
+    2300044: Left Front Door 1
+    2300046: Left Headlight 1
+    2300048: Left Headlight 2
+    2300050: Left Sideskirt 1
+    2300052: Left Sideskirt 2
+    2300054: Left Sideskirt 3
+    2300056: Left Sideskirt 4
+    2300058: Left Sideskirt 5
+    2300060: Left Sideskirt 6
+    2300062: Left Sideskirt 7
+    2300064: Left Sideskirt 8
+    2300066: Left Sideskirt 9
+    2300068: Left Sideskirt Stock
+    2300070: Left Taillight 1
+    2300072: LOD Body
+    2300074: LOD Front Bumper
+    2300076: LOD Front Left Fender
+    2300078: LOD Front Right Fender
+    2300080: LOD Hood
+    2300082: LOD Left Front Door
+    2300084: LOD Left Headlight
+    2300086: LOD Left Rear Door
+    2300088: LOD Left Sideskirt
+    2300090: LOD Left Taillight
+    2300092: LOD Rear Bumper
+    2300094: LOD Rear Left Fender
+    2300096: LOD Rear Right Fender
+    2300098: LOD Right Front Door
+    2300100: LOD Right Headlight
+    2300102: LOD Right Rear Door
+    2300104: LOD Right Sideskirt
+    2300106: LOD Right Taillight
+    2300108: LOD Trunk
+    2300110: Rear Bumper 1
+    2300112: Rear Bumper 2
+    2300114: Rear Bumper 3
+    2300116: Rear Bumper 4
+    2300118: Rear Bumper 5
+    2300120: Rear Bumper Stock
+    2300122: Rear Door Left 1
+    2300124: Rear Door Right 1
+    2300126: Rear Left Fender 1
+    2300128: Rear Left Fender Stock
+    2300130: Rear Right Fender 1
+    2300132: Rear Right Fender Stock
+    2300134: Right Front Door 1
+    2300136: Right Headlight 1
+    2300138: Right Headlight 2
+    2300140: Right Sideskirt 1
+    2300142: Right Sideskirt 2
+    2300144: Right Sideskirt 3
+    2300146: Right Sideskirt 4
+    2300148: Right Sideskirt 5
+    2300150: Right Sideskirt 6
+    2300152: Right Sideskirt 7
+    2300154: Right Sideskirt 8
+    2300156: Right Sideskirt 9
+    2300158: Right Sideskirt Stock
+    2300160: 'Right Taillight '
+    2300162: Rollcage 1
+    2300164: Roof Spoiler
+    2300166: Spacer 1
+    2300168: Spacer 1 1
+    2300170: speed
+    2300172: Spoiler 1
+    2300174: Spoiler 2
+    2300176: Spoiler 3
+    2300178: taho
+    2300180: temp
+    2300182: Trunk 1
+    3300000: Body 1
+    3300002: Cluster 1
+    3300004: Frame 1
+    3300006: Front Bumper 1
+    3300008: Front Bumper 2
+    3300010: Front Bumper 3
+    3300012: Front Bumper 4
+    3300014: Front Bumper Stock
+    3300016: Front Left Fender 1
+    3300018: Front Left Fender 2
+    3300020: Front Left Fender Stock
+    3300022: Front Right Fender 1
+    3300024: Front Right Fender 2
+    3300026: Front Right Fender Stock
+    3300028: gas
+    3300030: Glass 1
+    3300032: Hood 1
+    3300034: Hood 2
+    3300036: Hood 3
+    3300038: Hood 4
+    3300040: Hood Stock
+    3300042: Interior 1
+    3300044: Left Front Door 1
+    3300046: Left Headlight 1
+    3300048: Left Headlight 2
+    3300050: Left Sideskirt 1
+    3300052: Left Sideskirt 2
+    3300054: Left Sideskirt 3
+    3300056: Left Sideskirt 4
+    3300058: Left Sideskirt 5
+    3300060: Left Sideskirt 6
+    3300062: Left Sideskirt 7
+    3300064: Left Sideskirt 8
+    3300066: Left Sideskirt 9
+    3300068: Left Sideskirt Stock
+    3300070: Left Taillight 1
+    3300072: LOD Body
+    3300074: LOD Front Bumper
+    3300076: LOD Front Left Fender
+    3300078: LOD Front Right Fender
+    3300080: LOD Hood
+    3300082: LOD Left Front Door
+    3300084: LOD Left Headlight
+    3300086: LOD Left Rear Door
+    3300088: LOD Left Sideskirt
+    3300090: LOD Left Taillight
+    3300092: LOD Rear Bumper
+    3300094: LOD Rear Left Fender
+    3300096: LOD Rear Right Fender
+    3300098: LOD Right Front Door
+    3300100: LOD Right Headlight
+    3300102: LOD Right Rear Door
+    3300104: LOD Right Sideskirt
+    3300106: LOD Right Taillight
+    3300108: LOD Trunk
+    3300110: Rear Bumper 1
+    3300112: Rear Bumper 2
+    3300114: Rear Bumper 3
+    3300116: Rear Bumper 4
+    3300118: Rear Bumper 5
+    3300120: Rear Bumper Stock
+    3300122: Rear Door Left 1
+    3300124: Rear Door Right 1
+    3300126: Rear Left Fender 1
+    3300128: Rear Left Fender Stock
+    3300130: Rear Right Fender 1
+    3300132: Rear Right Fender Stock
+    3300134: Right Front Door 1
+    3300136: Right Headlight 1
+    3300138: Right Headlight 2
+    3300140: Right Sideskirt 1
+    3300142: Right Sideskirt 2
+    3300144: Right Sideskirt 3
+    3300146: Right Sideskirt 4
+    3300148: Right Sideskirt 5
+    3300150: Right Sideskirt 6
+    3300152: Right Sideskirt 7
+    3300154: Right Sideskirt 8
+    3300156: Right Sideskirt 9
+    3300158: Right Sideskirt Stock
+    3300160: 'Right Taillight '
+    3300162: Rollcage 1
+    3300164: Roof Spoiler
+    3300166: Spacer 1
+    3300168: Spacer 1 1
+    3300170: speed
+    3300172: Spoiler 1
+    3300174: Spoiler 2
+    3300176: Spoiler 3
+    3300178: taho
+    3300180: temp
+    3300182: Trunk 1
+    4300000: Frame
+    4300002: Left Headlight 1
+    4300004: Left Headlight 2
+    4300006: Right Headlight 2
+    4300008: Right Headlight 1
+    4300010: Left Taillight
+    4300012: 'Right Taillight '
+    4300014: Glass
+    4300016: Body
+    4300018: Left Front Door
+    4300020: Rear Door Left
+    4300022: Rear Door Right
+    4300024: Right Front Door
+    4300026: Trunk
+    4300028: Spacer
+    4300030: Spacer 1
+    4300032: Rollcage
+    4300034: gas
+    4300036: temp
+    4300038: taho
+    4300040: speed
+    4300042: Cluster
+    4300044: Interior
+    4300046: Front Bumper 1
+    4300048: Front Bumper 2
+    4300050: Front Bumper 3
+    4300052: Front Bumper 4
+    4300054: Front Bumper Stock
+    4300056: Front Left Fender 1
+    4300058: Front Left Fender 2
+    4300060: Front Left Fender Stock
+    4300062: Front Right Fender 1
+    4300064: Front Right Fender 2
+    4300066: Front Right Fender Stock
+    4300068: Hood 1
+    4300070: Hood 2
+    4300072: Hood 3
+    4300074: Hood 4
+    4300076: Hood Stock
+    4300078: Left Sideskirt 1
+    4300080: Left Sideskirt 2
+    4300082: Left Sideskirt 3
+    4300084: Left Sideskirt 4
+    4300086: Left Sideskirt 5
+    4300088: Left Sideskirt 6
+    4300090: Left Sideskirt 7
+    4300092: Left Sideskirt 8
+    4300094: Left Sideskirt 9
+    4300096: Left Sideskirt Stock
+    4300098: Rear Bumper Stock
+    4300100: Rear Bumper 5
+    4300102: Rear Bumper 4
+    4300104: Rear Bumper 3
+    4300106: Rear Bumper 2
+    4300108: Rear Bumper 1
+    4300110: Rear Left Fender 1
+    4300112: Rear Left Fender Stock
+    4300114: Rear Right Fender 1
+    4300116: Rear Right Fender Stock
+    4300118: Right Sideskirt 1
+    4300120: Right Sideskirt 2
+    4300122: Right Sideskirt 3
+    4300124: Right Sideskirt 4
+    4300126: Right Sideskirt 5
+    4300128: Right Sideskirt 6
+    4300130: Right Sideskirt 7
+    4300132: Right Sideskirt 8
+    4300134: Right Sideskirt 9
+    4300136: Right Sideskirt Stock
+    4300138: Roof Spoiler
+    4300140: Spoiler 1
+    4300142: Spoiler 2
+    4300144: Spoiler 3
+    4300146: LOD Body
+    4300148: LOD Front Bumper
+    4300150: LOD Front Left Fender
+    4300152: LOD Front Right Fender
+    4300154: LOD Left Front Door
+    4300156: LOD Left Headlight
+    4300158: LOD Left Rear Door
+    4300160: LOD Left Sideskirt
+    4300162: LOD Left Taillight
+    4300164: LOD Rear Bumper
+    4300166: LOD Rear Left Fender
+    4300168: LOD Rear Right Fender
+    4300170: LOD Right Front Door
+    4300172: LOD Right Headlight
+    4300174: LOD Right Rear Door
+    4300176: LOD Right Sideskirt
+    4300178: LOD Right Taillight
+    4300180: LOD Trunk
+    4300182: LOD Hood
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
